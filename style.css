@@ -1,0 +1,45 @@
+* {list-style: none; text-decoration: none; padding: 0px; margin: 0px; font-family: 'Baloo Bhai 2', cursive;scroll-behavior: smooth; }
+body { }
+nav {position: sticky;top: 0px;   }
+.navbar { display: flex; justify-content: space-between; background-color: #000000c9; height: 55px;}
+
+.logo img{height: 55px; width: 55px; margin-left: 10px;  }
+.navbar ul {margin-right: 30px;  margin-top: 1rem;  }
+.navbar li { display: inline-block;   }
+.navbar li a {margin: 0px 16px; color: white; font-size: 20px;  }
+.navbar li a:hover { color: #73917d;    }
+#home { color: white;}
+#home::before { content: ""; background: url('image/background.jpg') no-repeat center center/cover; position: absolute; height: 100%; width: 100%; z-index: -1; top: 0px; opacity: 0.8;} 
+.home-container { margin: 75px 75px; display: inline-block;}
+.head { font-size: 3rem; }
+.home-container p { font-size: 1.5rem;    }
+#About-container { position: absolute; color: white; top: 100vh; background-color: black; height: 100%;}
+#About-container h1 { margin: 20px 0px 0px 0px;}
+.h-secondary { text-align: center; font-size: 3rem; 
+margin-top: 15px; }
+#About-container p { text-align: center; font-size: 1.5rem; margin: 80px 50px;}
+#destination-container { position: absolute; top: 200vh; height:100%; width: 100%; color: white; background-color: black; }
+.destination {display: flex;}
+.box { height: 60%;    }
+.box img { height: 100%; width: 100%; 
+background-image: url('place1.jpg'); }
+.jpt {height: 83vh; border: 2px solid white; margin: 2px;}
+h2 { text-align: center; font-size: 1rem; font-size: 1.5rem;  }
+.jpt p { font-size: 1rem; text-align: center;}
+#Contact-container { top: 300vh; position: absolute;color: white;  width: 100%; height: 100%;}
+#Contact-container::before { content: "";
+ background: content: ""; background: url('image/bg2.jpg') no-repeat center center/cover; position: absolute; height: 100%; width: 100%; z-index: -1;}
+#Contact-container form{     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 67%;   }
+.contacts {  width: 20%}
+.contacts input { width: 20vw; background-color: black; color: white; text-align: center; border-radius: 10px; padding: 4px;  }
+label {font-size: 1.2rem;  }
+button { width: 18vw; margin: 5px; border-radius: 5px; background-color: black; color: white; }
+footer { position: absolute; top: 397.2vh; width: 100%; color: white; background-color: black; text-align: center;}
+
+
+
+

@@ -1,0 +1,22 @@
+body {background-color: ;}
+.navbar { flex-direction: column; height: 86px; }
+.navbar ul { margin-right: 0px; margin-top: -0.5rem; margin: 0px auto;}
+.navbar li a { margin: 0px 0px; font-size: 16px;  }
+.logo {  margin: 0px auto; }
+.head {font-size: 1.5rem;   }
+.home-container p { font-size: 1rem; }
+.home::before { opacity: 1;}  
+
+
+.no-phone { display: none;}
+.destination { flex-direction: column;}
+.jpt { height: 91vh;}
+.jpt p {font-size: 0.9rem;}
+.box img { height: 70%; }
+#About-container p { font-size: 1rem; margin: 10px 30px; }
+#destination-container { height: 295%;}
+#Contact-container { top: 492vh;  }
+.contacts input {width: 33vw;}
+label { font-size: 1.2rem;  }
+.h-secondary {font-size: 2rem; }
+footer { font-size: 0.84rem; top: 588.2vh;}
